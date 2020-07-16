@@ -31,13 +31,13 @@ namespace OLED {
     const SSD1306_COMSCANDEC = 0xC8
     const SSD1306_SEGREMAP = 0xA0
     const SSD1306_CHARGEPUMP = 0x8D
-    const chipAdress = 0x3C
+    const chipAdress = 0b0111100
     const xOffset = 0
     const yOffset = 0
     let charX = 0
     let charY = 0
-    let displayWidth = 128
-    let displayHeight = 64 / 8
+    let displayWidth = 64
+    let displayHeight = 48
     let screenSize = 0
     //let font: Array<Array<number>>
     let loadStarted: boolean;
